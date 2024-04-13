@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+	unsigned char num1 = 256;
+	unsigned short num2 = 65536;
+	unsigned long long num3 = 9223372036854775808ULL;
+
+
+
+	printf("%u %u %lld\n", num1, num2, num3);
+
+	return 0;
+
+}
